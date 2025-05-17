@@ -1,0 +1,69 @@
+[
+  {
+    "id":"$RTWYK_CAT00",
+    "type":"category",
+    "title":"Retaining Wall",
+    "frames":[{"bmp":"category.png"}]
+  },
+  {
+    "id":"$RTWYK_TEMPDECAL00",
+    "type":"template",
+    "category":"$RTWYK_CAT00",
+    "edge frames": [{"bmp": "edge_frames.png","w": 16,"count": 12}],
+    "edge border frames": [{"bmp": "edge_border_frames.png","w": 16,"count": 32}],
+    "price":1000,
+    "price factor":0,
+    "water":false,
+    "pollution":false,
+    "blending":false
+  },
+  
+  {
+    "id":"$RTWYK_DECALWALL00",
+    "type":"ground",
+    "template":"$RTWYK_TEMPDECAL00",
+    "title":"Retaining Wall VS",
+    "text":"Retaining Wall Vertical Stripes.",
+    "blending":false,
+    "frames":[
+      {"bmp":"Decal_base.png","w":32,"copies":15}
+    ],
+    "border frames":[
+      {"bmp":"Decal_base.png","w":32,"copies":15}
+    ],
+    "texture":[
+      {"bmp":"terrain_a.png","w":32,"h":32,"count":2}
+    ],
+    "map color": {"r": 139,"g": 127,"b": 117}
+  },
+  {
+    "id":"$RTWYK_DECALWALL01",
+    "type":"ground",
+    "template":"$RTWYK_TEMPDECAL00",
+    "title":"Retaining Wall GP",
+    "text":"Retaining Wall Grid Pattern",
+    "blending":false,
+    "frames":[
+      {"bmp":"Decal_base.png","w":32,"copies":15}
+    ],
+    "border frames":[
+      {"bmp":"Decal_base.png","w":32,"copies":15}
+    ],
+    "texture":[
+      {"bmp":"terrain_b.png","w":32,"h":32,"count":2}
+    ],
+    "map color": {"r": 139,"g": 127,"b": 117}
+  },
+  
+  {
+    "id": "$RTWYK_FENCE01",
+    "type": "fence",
+    "category":"$RTWYK_CAT00",
+    "title":"Vertical Retaining Wall",
+    "text":"Vertical Retaining Wall.",
+    "frames": [
+      {"bmp":"vertical.png","w": 16,"h": 19,"count": 2,"handle y":11}
+    ],
+    "price": 250
+  }
+]
